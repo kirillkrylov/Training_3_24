@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "fbbe490c-8d86-4123-9ec0-da73a7eb32ba",
+    "Name": "ExpenseReportLineGL",
+    "ModifiedOnUtc": "\/Date(1585070693000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Expense Report Line GL"
+  }
+}

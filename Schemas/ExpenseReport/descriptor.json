@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "b5490a0f-0ec4-4eca-ac21-7ca4ce7da2bd",
+    "Name": "ExpenseReport",
+    "ModifiedOnUtc": "\/Date(1585069573000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Expense Report"
+  }
+}
