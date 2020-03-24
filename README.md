@@ -6,7 +6,7 @@ March 24 - 27, 2020 Development Training
 - [X] Create Custom Package (DevTraining)
 - [X] Create Custom Clio Package (Training)
     - [X] Set dependencies
-    - [] Set description
+    - [ ] Set description
 - [X] Add script task element and set debug point with Terrasoft.Configuration project
 - [X] Download and Configure Clio
 - [X] Configure NLog
