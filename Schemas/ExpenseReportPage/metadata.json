@@ -1,5 +1,5 @@
 = MetaData.Schema.UId "13a7fbba-c78e-439e-a123-5c5192c702d4"
-= MetaData.Schema.A2 "ExpenseReport1Page"
+= MetaData.Schema.A2 "ExpenseReportPage"
 = MetaData.Schema.A5 "a6b979a4-1620-420c-a7b9-fa68288c0e03"
 = MetaData.Schema.B2.["a56065eb-fe78-4db6-9957-9c7e262e2046"].A4 "13a7fbba-c78e-439e-a123-5c5192c702d4"
 = MetaData.Schema.B2.["08e320a6-48f9-4bfc-a1ca-ba715243205f"].A4 "13a7fbba-c78e-439e-a123-5c5192c702d4"
@@ -42,7 +42,7 @@
 = MetaData.Schema.B2.["afe4f822-a972-4d35-82fe-4d80554f67ac"].A4 "13a7fbba-c78e-439e-a123-5c5192c702d4"
 + MetaData.Schema.B2 {
   "UId": "77cdb03a-b367-49c9-b6a4-ab735863df6b",
-  "A2": "Tab5a7b01a2TabLabelTabCaption",
+  "A2": "TabFinancial",
   "A3": "13a7fbba-c78e-439e-a123-5c5192c702d4",
   "A4": "13a7fbba-c78e-439e-a123-5c5192c702d4",
   "A5": "7409cc32-7bef-4bc3-9b7e-3f304702d2f3"

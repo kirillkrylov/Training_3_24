@@ -1,4 +1,4 @@
-define("ExpenseReportLines6f0c3ef6Page", [], function() {
+define("ExpenseReportLinesPage", [], function() {
 	return {
 		entitySchemaName: "ExpenseReportLines",
 		attributes: {},

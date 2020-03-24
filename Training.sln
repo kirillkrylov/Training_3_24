@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training", "Training.csproj", "{7B7259FF-E46A-4378-860C-0F1C88B8D3FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E6F8A09-D136-4FC2-833F-7B93630EE7EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,9 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7B7259FF-E46A-4378-860C-0F1C88B8D3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +29,11 @@ Global
 		{7B7259FF-E46A-4378-860C-0F1C88B8D3FC}.Release|x64.Build.0 = Debug|Any CPU
 		{7B7259FF-E46A-4378-860C-0F1C88B8D3FC}.Release|x86.ActiveCfg = Debug|Any CPU
 		{7B7259FF-E46A-4378-860C-0F1C88B8D3FC}.Release|x86.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE4375DA-F1BD-4BC3-AF6D-4E61931B6517}
 	EndGlobalSection
 EndGlobal

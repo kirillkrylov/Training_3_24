@@ -1,4 +1,4 @@
-define("ExpenseReport71af1876Section", [], function() {
+define("ExpenseReportSection", [], function() {
 	return {
 		entitySchemaName: "ExpenseReport",
 		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,

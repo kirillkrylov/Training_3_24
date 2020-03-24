@@ -1,4 +1,4 @@
-define("ExpenseReport1Page", [], function() {
+define("ExpenseReportPage", [], function() {
 	return {
 		entitySchemaName: "ExpenseReport",
 		attributes: {},
@@ -12,8 +12,8 @@ define("ExpenseReport1Page", [], function() {
 					"detailColumn": "ExpenseReport"
 				}
 			},
-			"Schema033cdd76Detailf0423e05": {
-				"schemaName": "Schema033cdd76Detail",
+			"ExpenseReportLinesDetails": {
+				"schemaName": "ExpenseReportLinesDetail",
 				"entitySchemaName": "ExpenseReportLines",
 				"filter": {
 					"detailColumn": "ExpenseReport",
@@ -27,7 +27,7 @@ define("ExpenseReport1Page", [], function() {
 		diff: /**SCHEMA_DIFF*/[
 			{
 				"operation": "insert",
-				"name": "Name943a991b-a3c8-45c0-bb66-8986901d7132",
+				"name": "Name",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -44,7 +44,7 @@ define("ExpenseReport1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUPf3b273d9-d8db-495e-8e1f-b999a6def278",
+				"name": "Contact",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -63,7 +63,7 @@ define("ExpenseReport1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "DATE4297bb6b-db00-4181-8c24-5d1daa193f6f",
+				"name": "ReportDate",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -81,7 +81,7 @@ define("ExpenseReport1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "FLOATa96a5934-8ec5-4df7-a761-59756a53d4cb",
+				"name": "Total",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -99,10 +99,10 @@ define("ExpenseReport1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "Tab5a7b01a2TabLabel",
+				"name": "TabFinancial",
 				"values": {
 					"caption": {
-						"bindTo": "Resources.Strings.Tab5a7b01a2TabLabelTabCaption"
+						"bindTo": "Resources.Strings.TabFinancial"
 					},
 					"items": [],
 					"order": 0
@@ -113,12 +113,12 @@ define("ExpenseReport1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "Schema033cdd76Detailf0423e05",
+				"name": "ExpenseReportLinesDetails",
 				"values": {
 					"itemType": 2,
 					"markerValue": "added-detail"
 				},
-				"parentName": "Tab5a7b01a2TabLabel",
+				"parentName": "TabFinancial",
 				"propertyName": "items",
 				"index": 0
 			},

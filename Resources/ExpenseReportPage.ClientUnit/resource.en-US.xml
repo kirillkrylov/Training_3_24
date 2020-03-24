@@ -3,7 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;Expense Report&quot;" />
-			<Item Name="LocalizableStrings.Tab5a7b01a2TabLabelTabCaption.Value" Value="Financial" />
+			<Item Name="LocalizableStrings.TabFinancial.Value" Value="Financial" />
 		</Items>
 	</Group>
 </Resources>
