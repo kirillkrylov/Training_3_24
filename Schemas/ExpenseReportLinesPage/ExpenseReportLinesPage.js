@@ -1,7 +1,18 @@
 define("ExpenseReportLinesPage", [], function() {
 	return {
 		entitySchemaName: "ExpenseReportLines",
-		attributes: {},
+		attributes: {
+			"AmountFC" : {
+				dataValueType: Terrasoft.DataValueType.FLOAT,
+				dependencies: [
+					{
+						columns: ["AmountFC"],
+						methodName: "onAmountFcChanged"
+					}
+				]
+			}
+			
+		},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
 		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{
@@ -42,12 +53,29 @@ define("ExpenseReportLinesPage", [], function() {
 				}
 			}
 		}/**SCHEMA_BUSINESS_RULES*/,
-		methods: {},
+		methods: {
+			
+			init: function(){
+				this.callParent(arguments);
+				this.sandbox.registerMessages("MessageWithResult");
+			},
+			
+			onAmountFcChanged: function(){
+				var arg = {payload:"This is a sample payload"};
+				this.sandbox.publish("MessageWithResult", arg, ["resultTag"]);
+			}
+		},
+		messages:{
+			"MessageWithResult": {
+				mode: Terrasoft.MessageMode.PTP,
+				direction: Terrasoft.MessageDirectionType.PUBLISH
+			}
+		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
 				"operation": "insert",
-				"name": "ExpenseReport8897a310-2f4b-445d-b317-94a19439f54a",
+				"name": "ExpenseReport",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -66,7 +94,7 @@ define("ExpenseReportLinesPage", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "Notes0e6a1c08-358d-4d56-96d0-b75cbd26e159",
+				"name": "Notes",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -85,7 +113,7 @@ define("ExpenseReportLinesPage", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "AmountFC7b2bde60-82ea-41e7-8fb9-33c778fc28c1",
+				"name": "AmountFC",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -102,7 +130,7 @@ define("ExpenseReportLinesPage", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "Currencyad94dc70-f83b-43b4-b2ac-4debd80bd365",
+				"name": "Currency",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -119,7 +147,7 @@ define("ExpenseReportLinesPage", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "AmountHC0a03956b-6f65-4e2a-83bf-c0837f7b0803",
+				"name": "AmountHC",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -136,7 +164,7 @@ define("ExpenseReportLinesPage", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUPba411831-3669-4c85-aa2e-3f201c0662ee",
+				"name": "Category",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -155,7 +183,7 @@ define("ExpenseReportLinesPage", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUP01c6bc9d-6331-4960-8b0a-1c2f531fde34",
+				"name": "GL",
 				"values": {
 					"layout": {
 						"colSpan": 12,

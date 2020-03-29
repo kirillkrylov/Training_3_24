@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "0873ce7b-a14c-42e0-ba29-40a47528e633",
     "Name": "ExpenseReportLinesDetail",
-    "ModifiedOnUtc": "\/Date(1585071833000)\/",
+    "ModifiedOnUtc": "\/Date(1585234480000)\/",
     "Parent": {
       "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
       "Name": "BaseGridDetailV2"

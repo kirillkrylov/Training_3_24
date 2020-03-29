@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "21ff95d6-9324-4890-986b-8bd4412f53a9",
+    "Name": "GetFxRateProcess",
+    "ModifiedOnUtc": "\/Date(1585138902000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Get FxRate"
+  }
+}

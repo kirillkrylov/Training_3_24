@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Terrasoft.Core;
 using Terrasoft.Messaging.Common;
 
-namespace Training.Files.cs
+namespace Training
 {
     public static class MsgChannelUtilities
     {

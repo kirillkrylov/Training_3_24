@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "d7d90e88-6ce0-4a8e-938e-c1f808c99868",
     "Name": "ExpenseReportLines",
-    "ModifiedOnUtc": "\/Date(1585070908000)\/",
+    "ModifiedOnUtc": "\/Date(1585076474000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"

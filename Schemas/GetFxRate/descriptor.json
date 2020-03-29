@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "4f646125-175b-4aa8-bb2e-9e0bf82dccf7",
+    "Name": "GetFxRate",
+    "ModifiedOnUtc": "\/Date(1585137775000)\/",
+    "ManagerName": "ProcessUserTaskSchemaManager",
+    "Caption": "Get Exchange Rate",
+    "DependsOn": []
+  }
+}

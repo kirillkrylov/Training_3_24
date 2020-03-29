@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "5f92e099-7c1f-418e-a71a-a7e5dba0be15",
+    "Name": "SupportedBanks",
+    "ModifiedOnUtc": "\/Date(1585135138000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Supported Banks"
+  }
+}
